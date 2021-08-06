@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beat_Maker App</title>
+    <link rel="stylesheet" href="Beat_Maker.css">
+</head>
+<body>
+    <h1>BEAT MAKER</h1>
+    <p>“Music is like a dream. One that I cannot hear.” </p>
+  <div class ="sound ">
+      <div class ="sound1">
+          <button id="b1" onclick="play1()">
+        </button>
+        <audio id="1" src="sounds_bubbles.mp3"></audio>
+      </div>
+      <div class ="sound2">
+        <button id="b2" onclick="play2()">
+      </button>
+      <audio id="2" src="sounds_clay.mp3"></audio>
+    </div>
+    <div class ="sound3">
+        <button id="b3"  onclick="play3()">
+      </button>
+      <audio id="3" src="sounds_confetti.mp3"></audio>
+    </div>
+    <div class ="sound4">
+        <button  id="b4" onclick="play4()">
+      </button>
+      <audio id="4" src="sounds_glimmer.mp3"></audio>
+    </div>
+    <div class ="sound1">
+        <button id="b5"  onclick="play5()">
+      </button>
+      <audio id="5" src="sounds_moon.mp3"></audio>
+    </div>
+  </div>
+
+  <script>
+      
+      function play1()
+    {
+        document.getElementById("1").play();
+       
+        
+    };
+    function play2()
+    {
+        document.getElementById("2").play();
+       
+        
+    };
+    function play3()
+    {
+        document.getElementById("3").play();
+        
+        
+    };
+    function play4()
+    {
+        document.getElementById("4").play();
+      
+        
+    };
+    function play5()
+    {
+        document.getElementById("5").play();
+        
+        
+    };
+
+  </script>
